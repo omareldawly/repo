@@ -93,6 +93,11 @@ opacity: .4;
     top: 19px;
     right: 100px;
   }
+ @media (max-width:568px){
+    .parent .nav i{right:30px}
+     .parent .nav .logo{margin-left:0}
+
+  }
   @media (max-width:768px){
     .parent .nav i{display: block;}
     .parent .nav ul{display: none;margin: 0;}
